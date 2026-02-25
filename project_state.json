@@ -1,0 +1,462 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 21,
+  "summary": "Premium institutional-grade website for RK Industrial Park — a large-scale industrial infrastructure project targeting manufacturers, logistics companies, MSMEs, and industrial investors. Design is corporate/investor-ready with white/steel-grey/industrial-blue palette, bold sans-serif typography, and clean grid layout. 12-section structure including Hero, About, Location, Infrastructure, Master Plan, Plot Options, Industries Served, Investment Case, Compliance, Gallery, Enquiry Form, and Footer. SEO-optimized with schema markup. Architecture must be scalable for Phase 2, future parks, investor portal, document vault, and blog.",
+  "architectural_notes": [
+    "Color palette: white base, steel/concrete grey, deep industrial blue accents, minimal black — no bright/flashy colors",
+    "Typography: bold modern sans-serif with strong headline hierarchy and clean spacing",
+    "Design tone: institutional authority, corporate seriousness, investment-grade — not broker/real estate style",
+    "Layout: clean grid, wide white spacing, subtle smooth animations only, no clutter",
+    "No phase references anywhere on the site — RK Industrial Park is a single integrated industrial ecosystem"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-implement-a-global-visual-theme-using-a-white-base-ffffff-steel-concrete-grey-6b7280-9ca3af-f3f4f6-deep-industrial-blue-1e3a5f-1d4ed8-and-minimal-black-111827-apply-bold-modern-sans-serif-typography-inter-or-similar-with-a-strong-headline-hierarchy-h1-60-72px-h2-40-48px-h3-24-30px-generous-white-space-clean-grid-alignment-and-subtle-fade-slide-in-scroll-animations-the-overall-feel-must-communicate-institutional-authority-not-residential-real-estate",
+      "title": "Implement a global visual theme using a white base (#FFFFFF), steel/concrete grey (#6B7280, #9CA3AF, #F3F4F6), deep industrial blue (#1E3A5F, #1D4ED8), and minimal black (#111827). Apply bold modern sans-serif typography (Inter or similar) with a strong headline hierarchy (H1 60–72px, H2 40–48px, H3 24–30px), generous white space, clean grid alignment, and subtle fade/slide-in scroll animations. The overall feel must communicate institutional authority, not residential real estate.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-sticky-top-navigation-bar-with-the-rk-industrial-park-logo-wordmark-on-the-left-and-navigation-links-about-location-infrastructure-master-plan-plot-options-industries-invest-compliance-gallery-contact-on-the-right-include-a-prominent-book-site-visit-cta-button-in-the-navbar-on-mobile-collapse-to-a-hamburger-menu",
+      "title": "Build a sticky top navigation bar with the RK Industrial Park logo/wordmark on the left and navigation links (About, Location, Infrastructure, Master Plan, Plot Options, Industries, Invest, Compliance, Gallery, Contact) on the right. Include a prominent 'Book Site Visit' CTA button in the navbar. On mobile, collapse to a hamburger menu.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-hero-section-with-headline-powering-the-future-of-industrial-growth-subheadline-a-strategically-located-industrial-park-designed-for-scalable-manufacturing-and-logistics-infrastructure-and-three-cta-buttons-download-brochure-primary-book-site-visit-secondary-outline-view-master-plan-secondary-outline-use-the-generated-aerial-industrial-park-hero-image-hero-aerial-dim-1920x1080-png-as-a-full-viewport-background-with-a-dark-overlay-gradient-to-ensure-text-legibility",
+      "title": "Build the Hero section with: headline 'Powering the Future of Industrial Growth', subheadline 'A strategically located industrial park designed for scalable manufacturing and logistics infrastructure.', and three CTA buttons: 'Download Brochure' (primary), 'Book Site Visit' (secondary outline), 'View Master Plan' (secondary outline). Use the generated aerial industrial park hero image (hero-aerial.dim_1920x1080.png) as a full-viewport background with a dark overlay gradient to ensure text legibility.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-about-rk-industrial-park-section-covering-vision-behind-the-project-industrial-ecosystem-approach-structured-zoning-master-planning-compliance-driven-development-and-future-ready-infrastructure-use-a-two-column-layout-key-stats-numbers-on-one-side-e-g-total-area-in-acres-number-of-plots-phase-count-and-descriptive-text-on-the-other-include-a-small-accent-industrial-graphic-or-icon-strip",
+      "title": "Build the About RK Industrial Park section covering: vision behind the project, industrial ecosystem approach, structured zoning & master planning, compliance-driven development, and future-ready infrastructure. Use a two-column layout: key stats/numbers on one side (e.g., total area in acres, number of plots, phase count) and descriptive text on the other. Include a small accent industrial graphic or icon strip.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-location-advantage-section-with-heading-strategically-connected-logistically-superior-include-a-static-map-placeholder-using-the-generated-location-map-dim-1200x600-png-image-and-a-connectivity-grid-showing-distances-to-national-highway-2-km-railway-station-8-km-airport-35-km-nearest-major-industrial-hub-15-km-add-connectivity-highlights-nh-access-rail-freight-corridor-logistics-gateway-positioning-as-icon-text-cards-below-the-map",
+      "title": "Build the Location Advantage section with heading 'Strategically Connected. Logistically Superior.' Include a static map placeholder (using the generated location-map.dim_1200x600.png image) and a connectivity grid showing distances to: National Highway (2 km), Railway Station (8 km), Airport (35 km), Nearest Major Industrial Hub (15 km). Add connectivity highlights (NH access, rail freight corridor, logistics gateway positioning) as icon-text cards below the map.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-infrastructure-highlights-section-as-an-icon-based-grid-4-columns-desktop-2-mobile-covering-wide-internal-rcc-roads-power-load-availability-water-supply-system-underground-drainage-street-lighting-24-7-security-boundary-wall-green-buffer-zones-and-truck-movement-planning-each-card-shows-an-svg-icon-title-and-one-line-description-add-a-download-technical-specifications-button-below-the-grid",
+      "title": "Build the Infrastructure Highlights section as an icon-based grid (4 columns desktop, 2 mobile) covering: Wide Internal RCC Roads, Power Load Availability, Water Supply System, Underground Drainage, Street Lighting, 24/7 Security, Boundary Wall, Green Buffer Zones, and Truck Movement Planning. Each card shows an SVG icon, title, and one-line description. Add a 'Download Technical Specifications' button below the grid.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-master-plan-section-displaying-the-master-plan-image-masterplan-dim-1600x900-png-with-a-css-zoom-pan-interaction-on-click-lightbox-or-css-transform-scale-include-a-phase-1-phase-2-accordion-toggle-showing-phase-wise-development-details-and-plot-segmentation-overview-add-a-download-layout-plan-cta-button",
+      "title": "Build the Master Plan section displaying the master plan image (masterplan.dim_1600x900.png) with a CSS zoom/pan interaction on click (lightbox or CSS transform scale). Include a Phase 1 / Phase 2 accordion toggle showing phase-wise development details and plot segmentation overview. Add a 'Download Layout Plan' CTA button.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-plot-options-section-with-a-structured-html-table-listing-plot-sizes-e-g-500-sq-m-1000-sq-m-2000-sq-m-5000-sq-m-10000-sq-m-customizable-industrial-layout-options-pricing-on-request-for-all-sizes-and-a-built-to-suit-option-row-add-a-note-below-the-table-about-custom-demarcation-options-include-a-request-pricing-cta-button-that-scrolls-to-the-enquiry-form",
+      "title": "Build the Plot Options section with a structured HTML table listing plot sizes (e.g., 500 sq.m, 1000 sq.m, 2000 sq.m, 5000 sq.m, 10000 sq.m+), customizable industrial layout options, 'Pricing on Request' for all sizes, and a Built-to-Suit option row. Add a note below the table about custom demarcation options. Include a 'Request Pricing' CTA button that scrolls to the enquiry form.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-industries-we-serve-section-as-an-8-card-grid-4-column-desktop-2-column-mobile-with-illustrated-svg-icons-for-manufacturing-fmcg-pharma-cold-storage-warehousing-packaging-engineering-and-logistics-each-card-has-an-icon-industry-name-and-a-one-line-description-of-how-the-park-serves-that-industry",
+      "title": "Build the Industries We Serve section as an 8-card grid (4-column desktop, 2-column mobile) with illustrated SVG icons for: Manufacturing, FMCG, Pharma, Cold Storage, Warehousing, Packaging, Engineering, and Logistics. Each card has an icon, industry name, and a one-line description of how the park serves that industry.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-why-invest-in-rk-industrial-park-section-with-five-investment-case-points-high-growth-industrial-zone-infrastructure-backed-appreciation-long-term-industrial-demand-compliance-ready-development-and-scalable-expansion-opportunity-use-a-horizontal-numbered-list-or-large-card-layout-copy-must-be-data-driven-and-institutional-not-salesy",
+      "title": "Build the Why Invest in RK Industrial Park section with five investment-case points: High-Growth Industrial Zone, Infrastructure-Backed Appreciation, Long-Term Industrial Demand, Compliance-Ready Development, and Scalable Expansion Opportunity. Use a horizontal numbered list or large-card layout. Copy must be data-driven and institutional — not salesy.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-compliance-approvals-section-with-a-certification-card-grid-displaying-government-industrial-approvals-zoning-compliance-certificate-environmental-clearance-fire-safety-compliance-and-industrial-usage-classification-each-card-uses-a-badge-seal-style-design-with-a-checkmark-icon-certificate-title-and-issuing-authority-placeholder-text-use-a-formal-government-document-aesthetic",
+      "title": "Build the Compliance & Approvals section with a certification card grid displaying: Government Industrial Approvals, Zoning Compliance Certificate, Environmental Clearance, Fire Safety Compliance, and Industrial Usage Classification. Each card uses a badge/seal-style design with a checkmark icon, certificate title, and issuing authority placeholder text. Use a formal, government-document aesthetic.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-gallery-section-in-a-responsive-masonry-grid-layout-with-placeholder-images-using-generated-gallery-images-gallery-1-dim-800x600-png-through-gallery-6-dim-800x600-png-labeled-as-aerial-site-view-development-progress-infrastructure-works-3d-render-phase-1-road-network-and-boundary-greenery-clicking-any-image-opens-it-in-a-lightbox-overlay",
+      "title": "Build the Gallery section in a responsive masonry grid layout with placeholder images (using generated gallery images: gallery-1.dim_800x600.png through gallery-6.dim_800x600.png) labeled as: Aerial Site View, Development Progress, Infrastructure Works, 3D Render — Phase 1, Road Network, and Boundary & Greenery. Clicking any image opens it in a lightbox overlay.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-book-site-visit-investor-enquiry-form-section-with-a-structured-form-containing-company-name-contact-person-phone-email-industry-type-dropdown-manufacturing-fmcg-pharma-cold-storage-warehousing-packaging-engineering-logistics-other-required-plot-size-dropdown-500-sqm-1000-sqm-2000-sqm-5000-sqm-custom-power-requirement-text-investment-timeline-dropdown-immediate-3-6-months-6-12-months-12-months-store-submissions-in-the-backend-show-a-success-confirmation-message-after-submission",
+      "title": "Build the Book Site Visit / Investor Enquiry Form section with a structured form containing: Company Name, Contact Person, Phone, Email, Industry Type (dropdown: Manufacturing/FMCG/Pharma/Cold Storage/Warehousing/Packaging/Engineering/Logistics/Other), Required Plot Size (dropdown: 500 sqm / 1000 sqm / 2000 sqm / 5000 sqm / Custom), Power Requirement (text), Investment Timeline (dropdown: Immediate / 3–6 months / 6–12 months / 12+ months). Store submissions in the backend. Show a success confirmation message after submission.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-footer-with-rk-industrial-park-full-address-placeholder-phone-numbers-email-address-a-static-google-maps-embed-placeholder-styled-iframe-placeholder-with-map-pin-graphic-legal-disclaimer-text-copyright-line-and-a-download-brochure-button-use-a-dark-steel-grey-near-black-background-with-white-text",
+      "title": "Build the Footer with: RK Industrial Park full address (placeholder), phone numbers, email address, a static Google Maps embed placeholder (styled iframe placeholder with map pin graphic), legal disclaimer text, copyright line, and a 'Download Brochure' button. Use a dark steel-grey/near-black background with white text.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-seo-meta-tags-in-the-html-head-title-tag-meta-description-open-graph-tags-and-json-ld-schema-markup-for-organization-localbusiness-and-a-custom-industrialdevelopment-type-target-keyword-phrases-industrial-park-industrial-plots-for-sale-logistics-park-investment-manufacturing-land-industrial-infrastructure-project",
+      "title": "Implement SEO meta tags in the HTML head: title tag, meta description, Open Graph tags, and JSON-LD schema markup for Organization, LocalBusiness, and a custom IndustrialDevelopment type. Target keyword phrases: 'Industrial park', 'Industrial plots for sale', 'Logistics park investment', 'Manufacturing land', 'Industrial infrastructure project'.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-hero-section-in-frontend-src-components-hero-tsx-with-the-following-content-headline-powering-the-future-of-industrial-growth-subheadline-a-strategically-planned-industrial-ecosystem-designed-for-scalable-manufacturing-warehousing-and-logistics-operations-and-three-cta-buttons-download-brochure-primary-book-site-visit-secondary-outline-view-master-plan-secondary-outline-replace-the-existing-hero-background-with-the-newly-generated-aerial-drone-view-industrial-park-image-hero-aerial-v2-dim-1920x1080-png-as-a-full-viewport-background-with-a-dark-overlay-gradient-to-ensure-text-legibility",
+      "title": "Update the Hero section in frontend/src/components/Hero.tsx with the following content: headline 'Powering the Future of Industrial Growth', subheadline 'A strategically planned industrial ecosystem designed for scalable manufacturing, warehousing, and logistics operations.', and three CTA buttons: 'Download Brochure' (primary), 'Book Site Visit' (secondary outline), 'View Master Plan' (secondary outline). Replace the existing hero background with the newly generated aerial/drone-view industrial park image (hero-aerial-v2.dim_1920x1080.png) as a full-viewport background with a dark overlay gradient to ensure text legibility.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-hero-section-frontend-src-components-hero-tsx-make-the-rk-industrial-park-name-clearly-visible-ensure-it-appears-as-a-prominent-styled-text-element-e-g-above-or-within-the-headline-using-a-contrasting-colour-or-larger-font-weight-so-it-is-immediately-legible-against-the-background-image-and-overlay",
+      "title": "In the Hero section (frontend/src/components/Hero.tsx), make the 'RK Industrial Park' name clearly visible — ensure it appears as a prominent, styled text element (e.g., above or within the headline, using a contrasting colour or larger font weight) so it is immediately legible against the background image and overlay.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-hero-section-stats-strip-frontend-src-components-hero-tsx-and-the-about-section-stats-frontend-src-components-about-tsx-update-the-total-area-stat-to-25-acres-and-the-total-plots-stat-to-100-plots-remove-all-references-to-phases-e-g-phase-count-phases-2-phases-from-both-sections-entirely-do-not-display-a-phase-count-stat-anywhere",
+      "title": "In the Hero section stats strip (frontend/src/components/Hero.tsx) and the About section stats (frontend/src/components/About.tsx), update the total area stat to '25+ Acres' and the total plots stat to '100 Plots'. Remove all references to phases (e.g., 'Phase count', 'Phases', '2 Phases') from both sections entirely — do not display a phase count stat anywhere.",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-frontend-src-components-hero-tsx-increase-the-visual-prominence-of-the-rk-industrial-park-brand-name-make-it-significantly-larger-bolder-or-more-contrasted-for-example-increase-font-size-use-a-bright-accent-colour-such-as-the-industrial-blue-1d4ed8-or-white-with-a-glow-shadow-add-a-subtle-background-pill-or-underline-treatment-or-increase-letter-spacing-so-it-is-immediately-the-first-thing-a-visitor-reads-against-the-dark-overlay-background",
+      "title": "In frontend/src/components/Hero.tsx, increase the visual prominence of the 'RK Industrial Park' brand name. Make it significantly larger, bolder, or more contrasted — for example, increase font size, use a bright accent colour (such as the industrial blue #1D4ED8 or white with a glow/shadow), add a subtle background pill or underline treatment, or increase letter-spacing — so it is immediately the first thing a visitor reads against the dark overlay background.",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-frontend-src-components-hero-tsx-update-the-industrial-plots-stat-in-the-stats-strip-from-100-plots-to-100-plots-adding-the-plus-sign-also-update-the-same-stat-in-frontend-src-components-about-tsx-from-100-plots-to-100-plots-to-keep-both-sections-consistent",
+      "title": "In frontend/src/components/Hero.tsx, update the industrial plots stat in the stats strip from '100 Plots' to '100+ Plots' (adding the plus sign). Also update the same stat in frontend/src/components/About.tsx from '100 Plots' to '100+ Plots' to keep both sections consistent.",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-revamp-the-hero-section-frontend-src-components-hero-tsx-for-greater-visual-impact-reduce-the-hero-brand-name-font-size-so-the-full-rk-industrial-park-name-fits-on-one-line-and-is-fully-visible-without-overflow-replace-the-flat-dark-overlay-with-a-richer-gradient-deep-navy-to-transparent-or-diagonal-blue-to-black-add-a-subtle-animated-particle-or-grid-line-svg-background-layer-to-add-depth-introduce-a-glowing-blue-accent-bar-or-horizontal-rule-above-the-headline-and-increase-contrast-on-the-stats-strip-by-giving-each-stat-a-bordered-or-frosted-glass-card-treatment",
+      "title": "Revamp the Hero section (frontend/src/components/Hero.tsx) for greater visual impact: reduce the hero brand name font size so the full 'RK Industrial Park' name fits on one line and is fully visible without overflow; replace the flat dark overlay with a richer gradient (deep navy to transparent or diagonal blue-to-black); add a subtle animated particle or grid-line SVG background layer to add depth; introduce a glowing blue accent bar or horizontal rule above the headline; and increase contrast on the stats strip by giving each stat a bordered or frosted-glass card treatment.",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-enhance-the-about-section-frontend-src-components-about-tsx-visual-design-give-each-stat-card-a-bold-coloured-top-border-accent-in-industrial-blue-1d4ed8-add-a-subtle-background-texture-or-diagonal-stripe-pattern-to-the-section-increase-the-size-and-weight-of-stat-numbers-and-introduce-a-thin-blue-accent-rule-beside-each-pillar-heading-in-the-descriptive-text-column",
+      "title": "Enhance the About section (frontend/src/components/About.tsx) visual design: give each stat card a bold coloured top-border accent in industrial blue (#1D4ED8); add a subtle background texture or diagonal stripe pattern to the section; increase the size and weight of stat numbers; and introduce a thin blue accent rule beside each pillar heading in the descriptive text column.",
+      "reqIds": [
+        "REQ-23"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-enhance-the-infrastructure-section-frontend-src-components-infrastructure-tsx-visual-design-replace-flat-white-cards-with-a-dark-navy-1e3a5f-card-background-with-white-text-and-bright-blue-icon-colour-add-a-hover-lift-effect-translate-y-box-shadow-to-each-card-give-the-section-a-light-steel-grey-f3f4f6-background-to-contrast-the-dark-cards-and-make-the-section-heading-larger-and-bolder",
+      "title": "Enhance the Infrastructure section (frontend/src/components/Infrastructure.tsx) visual design: replace flat white cards with a dark navy (#1E3A5F) card background with white text and bright blue icon colour; add a hover lift effect (translate-y + box-shadow) to each card; give the section a light steel-grey (#F3F4F6) background to contrast the dark cards; and make the section heading larger and bolder.",
+      "reqIds": [
+        "REQ-24"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-enhance-the-invest-section-frontend-src-components-invest-tsx-visual-design-use-a-dark-navy-or-deep-industrial-blue-1e3a5f-section-background-with-white-light-text-make-the-numbered-investment-point-numerals-very-large-e-g-80-100px-semi-transparent-and-use-them-as-a-decorative-backdrop-behind-each-point-add-a-horizontal-blue-accent-line-below-each-point-title-and-make-the-section-feel-bold-and-authoritative",
+      "title": "Enhance the Invest section (frontend/src/components/Invest.tsx) visual design: use a dark navy or deep industrial blue (#1E3A5F) section background with white/light text; make the numbered investment point numerals very large (e.g., 80–100px), semi-transparent, and use them as a decorative backdrop behind each point; add a horizontal blue accent line below each point title; and make the section feel bold and authoritative.",
+      "reqIds": [
+        "REQ-25"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-enhance-the-industries-section-frontend-src-components-industries-tsx-visual-design-add-a-coloured-gradient-background-to-each-card-on-hover-from-white-to-light-blue-eff6ff-increase-svg-icon-size-to-at-least-48px-add-a-thin-blue-top-border-accent-to-each-card-and-apply-a-subtle-scale-up-transform-on-hover-to-make-cards-feel-interactive",
+      "title": "Enhance the Industries section (frontend/src/components/Industries.tsx) visual design: add a coloured gradient background to each card on hover (from white to light blue #EFF6FF); increase SVG icon size to at least 48px; add a thin blue top-border accent to each card; and apply a subtle scale-up transform on hover to make cards feel interactive.",
+      "reqIds": [
+        "REQ-26"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-enhance-the-compliance-section-frontend-src-components-compliance-tsx-visual-design-give-each-certification-card-a-more-prominent-seal-badge-appearance-with-a-circular-or-hexagonal-blue-border-around-the-checkmark-icon-add-a-subtle-patterned-or-linen-textured-light-grey-section-background-increase-the-card-border-weight-and-add-a-light-blue-tint-to-card-backgrounds-make-the-section-heading-incorporate-a-gold-or-deep-blue-accent-colour-to-reinforce-institutional-authority",
+      "title": "Enhance the Compliance section (frontend/src/components/Compliance.tsx) visual design: give each certification card a more prominent seal/badge appearance with a circular or hexagonal blue border around the checkmark icon; add a subtle patterned or linen-textured light grey section background; increase the card border weight and add a light blue tint to card backgrounds; make the section heading incorporate a gold or deep-blue accent colour to reinforce institutional authority.",
+      "reqIds": [
+        "REQ-27"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-enhance-the-enquiry-form-section-frontend-src-components-enquiryform-tsx-visual-design-wrap-the-form-in-a-split-two-column-layout-left-column-has-a-dark-navy-1e3a5f-background-with-a-large-white-headline-key-trust-indicators-e-g-100-plots-25-acres-compliance-ready-and-an-accent-graphic-right-column-contains-the-form-on-a-white-card-with-a-subtle-drop-shadow-on-mobile-stack-the-columns-vertically",
+      "title": "Enhance the Enquiry Form section (frontend/src/components/EnquiryForm.tsx) visual design: wrap the form in a split two-column layout — left column has a dark navy (#1E3A5F) background with a large white headline, key trust indicators (e.g., '100+ Plots', '25+ Acres', 'Compliance-Ready'), and an accent graphic; right column contains the form on a white card with a subtle drop shadow. On mobile, stack the columns vertically.",
+      "reqIds": [
+        "REQ-28"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-global-section-rhythm-and-visual-variety-improvements-across-frontend-src-index-css-and-all-section-components-alternate-section-backgrounds-between-pure-white-ffffff-light-steel-grey-f3f4f6-and-deep-navy-1e3a5f-to-create-visual-breathing-room-and-prevent-the-page-from-feeling-monotonous-ensure-section-headings-consistently-use-the-section-heading-utility-class-with-bold-weight-and-industrial-blue-underline-accent-and-add-entrance-scroll-animations-fade-in-slight-translatey-to-all-major-section-headings-and-card-grids",
+      "title": "Apply global section rhythm and visual variety improvements across frontend/src/index.css and all section components: alternate section backgrounds between pure white (#FFFFFF), light steel grey (#F3F4F6), and deep navy (#1E3A5F) to create visual breathing room and prevent the page from feeling monotonous; ensure section headings consistently use the 'section-heading' utility class with bold weight and industrial-blue underline accent; and add entrance scroll animations (fade-in + slight translateY) to all major section headings and card grids.",
+      "reqIds": [
+        "REQ-29"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-frontend-src-components-location-tsx-with-the-following-real-data-1-location-address-gopalpur-sikandrabad-2-google-maps-coordinates-28-4970110-77-6536180-update-any-map-embed-link-or-static-map-url-to-use-these-coordinates-3-replace-all-existing-distance-values-in-the-connectivity-grid-with-national-highway-5-km-railway-station-15-km-airport-30-km-major-city-10-km-icd-logistics-hub-1-km-4-remove-the-nearest-major-industrial-hub-entry-if-it-currently-exists-and-replace-add-icd-logistics-hub-1-km-as-a-connectivity-distance-card-5-update-the-location-highlight-statement-to-strategically-positioned-within-a-high-growth-industrial-corridor-offering-seamless-multi-modal-connectivity-6-update-the-static-map-image-link-or-iframe-placeholder-to-reference-the-coordinates-28-4970110-77-6536180-e-g-as-an-href-or-src-pointing-to-google-maps-at-those-coordinates",
+      "title": "Update frontend/src/components/Location.tsx with the following real data: (1) Location address: 'Gopalpur, Sikandrabad'; (2) Google Maps coordinates: 28.4970110, 77.6536180 — update any map embed link or static map URL to use these coordinates; (3) Replace all existing distance values in the connectivity grid with: National Highway — 5 km, Railway Station — 15 km, Airport — 30 km, Major City — 10 km, ICD / Logistics Hub — 1 km; (4) Remove the 'Nearest Major Industrial Hub' entry if it currently exists and replace/add 'ICD / Logistics Hub — 1 km' as a connectivity distance card; (5) Update the location highlight statement to: 'Strategically positioned within a high-growth industrial corridor offering seamless multi-modal connectivity.'; (6) Update the static map image link or iframe placeholder to reference the coordinates 28.4970110, 77.6536180 (e.g., as an href or src pointing to Google Maps at those coordinates).",
+      "reqIds": [
+        "REQ-30"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-rewrite-frontend-src-components-masterplan-tsx-to-present-a-unified-single-phase-master-development-section-remove-all-references-to-phase-1-and-phase-2-entirely-including-the-accordion-toggle-phase-labels-phase-wise-plot-counts-and-any-phase-specific-copy-the-section-must-communicate-rk-industrial-park-as-a-single-integrated-industrial-ecosystem",
+      "title": "Rewrite frontend/src/components/MasterPlan.tsx to present a unified, single-phase master development section. Remove all references to Phase 1 and Phase 2 entirely — including the accordion toggle, phase labels, phase-wise plot counts, and any phase-specific copy. The section must communicate RK Industrial Park as a single integrated industrial ecosystem.",
+      "reqIds": [
+        "REQ-31"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-set-the-section-title-to-master-plan-the-headline-to-structured-planning-integrated-execution-and-the-subtext-to-the-master-plan-reflects-a-disciplined-and-infrastructure-first-approach-to-industrial-land-development-every-zone-road-network-and-utility-corridor-is-pre-engineered-to-ensure-operational-efficiency-seamless-logistics-movement-and-scalable-industrial-growth",
+      "title": "Set the section title to 'MASTER PLAN', the headline to 'Structured Planning. Integrated Execution.', and the subtext to: 'The master plan reflects a disciplined and infrastructure-first approach to industrial land development — every zone, road network, and utility corridor is pre-engineered to ensure operational efficiency, seamless logistics movement, and scalable industrial growth.'",
+      "reqIds": [
+        "REQ-32"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-the-master-plan-as-a-pdf-embed-or-a-styled-iframe-object-element-pointing-to-master-pdf-placed-in-frontend-public-assets-master-pdf-the-viewer-should-allow-the-user-to-view-the-document-inline-with-a-fallback-download-link-maintain-the-zoomable-interactive-interaction-where-supported-by-the-browser-s-native-pdf-viewer",
+      "title": "Display the master plan as a PDF embed or a styled iframe/object element pointing to 'master.pdf' (placed in frontend/public/assets/master.pdf). The viewer should allow the user to view the document inline with a fallback download link. Maintain the zoomable/interactive interaction where supported by the browser's native PDF viewer.",
+      "reqIds": [
+        "REQ-33"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-phase-1-phase-2-info-boxes-with-a-horizontal-project-summary-strip-displaying-five-info-blocks-total-land-area-20-acres-total-industrial-plots-100-plot-size-range-200-sq-m-5-000-sq-m-zoning-industrial-use-status-ready-each-block-shows-a-bold-label-and-a-prominent-value-the-strip-should-span-full-width-and-use-a-contrasting-background-e-g-deep-navy-1e3a5f-or-light-steel-grey-f3f4f6-to-visually-separate-it-from-the-master-plan-viewer",
+      "title": "Replace the Phase 1 / Phase 2 info boxes with a horizontal Project Summary Strip displaying five info blocks: Total Land Area: 20+ Acres, Total Industrial Plots: 100+, Plot Size Range: 200 sq.m – 5,000 sq.m, Zoning: Industrial Use, Status: Ready. Each block shows a bold label and a prominent value. The strip should span full width and use a contrasting background (e.g., deep navy #1E3A5F or light steel grey #F3F4F6) to visually separate it from the master plan viewer.",
+      "reqIds": [
+        "REQ-34"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-an-infrastructure-highlights-subsection-below-the-master-plan-pdf-viewer-using-a-two-column-bullet-layout-with-the-following-nine-points-1-industrial-plots-ranging-from-200-sq-m-5-000-sq-m-2-complete-rcc-internal-road-network-12m-18m-width-3-dedicated-truck-entry-and-exit-planning-4-power-substation-with-ht-line-5-underground-drainage-stormwater-system-6-water-supply-infrastructure-with-overhead-tanks-7-boundary-wall-gated-security-8-street-lighting-across-all-internal-roads-9-green-buffer-zones-along-perimeter-use-clean-bullet-styling-with-a-blue-accent-marker-the-subsection-heading-should-be-clearly-labelled-e-g-infrastructure-highlights-or-development-specifications",
+      "title": "Add an Infrastructure Highlights subsection below the master plan PDF viewer, using a two-column bullet layout with the following nine points: (1) Industrial plots ranging from 200 sq.m – 5,000 sq.m; (2) Complete RCC internal road network (12m–18m width); (3) Dedicated truck entry and exit planning; (4) Power substation with HT line; (5) Underground drainage & stormwater system; (6) Water supply infrastructure with overhead tanks; (7) Boundary wall & gated security; (8) Street lighting across all internal roads; (9) Green buffer zones along perimeter. Use clean bullet styling with a blue accent marker. The subsection heading should be clearly labelled (e.g., 'Infrastructure Highlights' or 'Development Specifications').",
+      "reqIds": [
+        "REQ-35"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-two-cta-buttons-at-the-bottom-of-the-master-plan-section-a-primary-button-labelled-download-master-layout-plan-linking-to-assets-master-pdf-as-a-download-and-a-secondary-outline-button-labelled-book-site-visit-that-scrolls-to-the-enquiry-form-section-button-styling-must-follow-the-existing-primary-secondary-button-conventions-in-the-design-system",
+      "title": "Add two CTA buttons at the bottom of the Master Plan section: a primary button labelled 'DOWNLOAD MASTER LAYOUT PLAN' (linking to /assets/master.pdf as a download) and a secondary outline button labelled 'BOOK SITE VISIT' that scrolls to the enquiry form section. Button styling must follow the existing primary/secondary button conventions in the design system.",
+      "reqIds": [
+        "REQ-36"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-an-institutional-blueprint-aesthetic-to-the-entire-master-plan-section-use-clean-grid-layout-with-generous-white-space-avoid-sales-language-throughout-all-copy-use-the-established-colour-palette-white-base-steel-grey-deep-navy-1e3a5f-industrial-blue-1d4ed8-and-apply-consistent-typography-hierarchy-the-section-tone-must-communicate-planning-discipline-and-infrastructure-authority",
+      "title": "Apply an institutional blueprint aesthetic to the entire Master Plan section: use clean grid layout with generous white space, avoid sales language throughout all copy, use the established colour palette (white base, steel grey, deep navy #1E3A5F, industrial blue #1D4ED8), and apply consistent typography hierarchy. The section tone must communicate planning discipline and infrastructure authority.",
+      "reqIds": [
+        "REQ-37"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-frontend-src-components-masterplan-tsx-fix-the-project-summary-strip-so-that-all-five-info-blocks-display-their-values-correctly-the-labels-are-rendering-but-the-corresponding-values-are-missing-or-invisible-each-block-must-show-a-bold-prominently-styled-value-beneath-its-label-total-land-area-20-acres-total-industrial-plots-100-plot-size-range-200-sq-m-5-000-sq-m-zoning-industrial-use-status-ready-values-must-use-a-large-font-size-e-g-28-36px-bold-weight-and-the-industrial-blue-1d4ed8-or-white-colour-depending-on-strip-background-to-ensure-they-are-clearly-visible-and-contrast-against-the-strip-background",
+      "title": "In frontend/src/components/MasterPlan.tsx, fix the Project Summary Strip so that all five info blocks display their values correctly. The labels are rendering but the corresponding values are missing or invisible. Each block must show a bold, prominently styled value beneath its label: 'Total Land Area' → '20+ Acres', 'Total Industrial Plots' → '100+', 'Plot Size Range' → '200 sq.m – 5,000 sq.m', 'Zoning' → 'Industrial Use', 'Status' → 'Ready'. Values must use a large font size (e.g., 28–36px), bold weight, and the industrial blue (#1D4ED8) or white colour (depending on strip background) to ensure they are clearly visible and contrast against the strip background.",
+      "reqIds": [
+        "REQ-38"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-rewrite-frontend-src-components-plotoptions-tsx-with-the-following-content-and-structure-section-title-plot-options-headline-flexible-plot-configurations-designed-for-industrial-scalability-subtext-rk-industrial-park-offers-structured-industrial-land-parcels-with-scalable-configurations-from-msme-units-to-large-scale-manufacturing-and-logistics-infrastructure-custom-development-options-are-available-to-meet-specialized-operational-requirements-table-columns-plot-size-category-layout-suitable-for-pricing-table-rows-1-100-500-sq-m-small-industrial-plot-standard-customizable-msme-light-manufacturing-fabrication-units-pricing-on-request-2-500-1-000-sq-m-medium-industrial-plot-customizable-manufacturing-assembly-packaging-units-pricing-on-request-3-1-000-2-500-sq-m-large-industrial-plot-fully-customizable-fmcg-pharma-engineering-processing-units-pricing-on-request-4-2-500-sq-m-and-above-large-scale-industrial-development-fully-customizable-logistics-warehousing-large-manufacturing-cold-storage-pricing-on-request-5-custom-requirement-built-to-suit-development-designed-to-operational-specification-specialized-manufacturing-cold-chain-heavy-industry-institutional-operators-pricing-on-request-the-built-to-suit-row-row-5-must-be-visually-distinguished-as-a-premium-offering-use-a-contrasting-row-background-e-g-deep-navy-1e3a5f-with-white-text-a-subtle-badge-or-label-or-a-styled-border-to-differentiate-it-from-the-standard-rows-without-overcrowding-with-colour-section-note-below-table-heading-custom-demarcation-built-to-suit-development-plots-may-be-combined-or-subdivided-based-on-operational-requirements-built-to-suit-options-include-coordinated-infrastructure-planning-layout-engineering-and-structured-execution-aligned-with-industrial-compliance-norms-cta-button-request-pricing-primary-style-smooth-scrolls-to-the-enquiry-form-section-design-requirements-keep-table-clean-minimal-and-well-aligned-with-consistent-column-widths-use-institutional-industrial-tone-throughout-avoid-sales-heavy-language-apply-consistent-typography-hierarchy-matching-the-existing-design-system-inter-section-heading-utility-class-industrial-blue-1d4ed8-accents-table-header-row-should-use-a-dark-navy-1e3a5f-background-with-white-text-add-scroll-reveal-fade-in-animation-on-the-table-and-section-heading-consistent-with-other-sections-on-mobile-ensure-the-table-is-horizontally-scrollable-or-reformatted-as-stacked-cards-to-remain-readable",
+      "title": "Rewrite frontend/src/components/PlotOptions.tsx with the following content and structure:\n\n**Section Title:** PLOT OPTIONS\n**Headline:** Flexible Plot Configurations Designed for Industrial Scalability\n**Subtext:** RK Industrial Park offers structured industrial land parcels with scalable configurations — from MSME units to large-scale manufacturing and logistics infrastructure. Custom development options are available to meet specialized operational requirements.\n\n**Table columns:** Plot Size | Category | Layout | Suitable For | Pricing\n\n**Table rows:**\n1. 100 – 500 sq.m | Small Industrial Plot | Standard / Customizable | MSME, Light Manufacturing, Fabrication Units | Pricing on Request\n2. 500 – 1,000 sq.m | Medium Industrial Plot | Customizable | Manufacturing, Assembly, Packaging Units | Pricing on Request\n3. 1,000 – 2,500 sq.m | Large Industrial Plot | Fully Customizable | FMCG, Pharma, Engineering, Processing Units | Pricing on Request\n4. 2,500 sq.m and Above | Large-Scale Industrial Development | Fully Customizable | Logistics, Warehousing, Large Manufacturing, Cold Storage | Pricing on Request\n5. Custom Requirement | Built-to-Suit Development | Designed to Operational Specification | Specialized Manufacturing, Cold Chain, Heavy Industry, Institutional Operators | Pricing on Request\n\nThe Built-to-Suit row (row 5) must be visually distinguished as a premium offering — use a contrasting row background (e.g., deep navy #1E3A5F with white text), a subtle badge or label, or a styled border to differentiate it from the standard rows without overcrowding with colour.\n\n**Section Note below table (heading: 'Custom Demarcation & Built-to-Suit Development'):**\n'Plots may be combined or subdivided based on operational requirements. Built-to-suit options include coordinated infrastructure planning, layout engineering, and structured execution aligned with industrial compliance norms.'\n\n**CTA button:** 'Request Pricing' (primary style, smooth-scrolls to the enquiry form section)\n\nDesign requirements:\n- Keep table clean, minimal, and well-aligned with consistent column widths\n- Use institutional industrial tone throughout; avoid sales-heavy language\n- Apply consistent typography hierarchy matching the existing design system (Inter, section-heading utility class, industrial blue #1D4ED8 accents)\n- Table header row should use a dark navy (#1E3A5F) background with white text\n- Add scroll-reveal fade-in animation on the table and section heading consistent with other sections\n- On mobile, ensure the table is horizontally scrollable or reformatted as stacked cards to remain readable",
+      "reqIds": [
+        "REQ-39"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-redesign-the-rk-industrial-park-logo-wordmark-area-in-frontend-src-components-navbar-tsx-for-stronger-visual-impact-and-hierarchy-currently-the-brand-name-wraps-awkwardly-across-two-lines-rk-industrial-park-fix-it-to-display-on-a-single-line-without-wrapping-increase-the-font-size-and-weight-of-the-wordmark-apply-a-consistent-typographic-treatment-e-g-rk-industrial-park-in-bold-inter-with-tracked-uppercase-lettering-ensure-rk-or-the-full-name-uses-the-industrial-blue-accent-1d4ed8-or-a-contrasting-white-blue-split-to-create-visual-hierarchy-the-icon-logo-mark-to-the-left-should-be-properly-sized-and-vertically-aligned-with-the-wordmark-the-result-should-feel-like-a-confident-institutional-brand-lockup-not-a-wrapped-overflow",
+      "title": "Redesign the 'RK Industrial Park' logo/wordmark area in frontend/src/components/Navbar.tsx for stronger visual impact and hierarchy. Currently the brand name wraps awkwardly across two lines ('RK INDUSTRIAL' / 'PARK'). Fix it to display on a single line without wrapping. Increase the font size and weight of the wordmark, apply a consistent typographic treatment (e.g., 'RK INDUSTRIAL PARK' in bold Inter with tracked uppercase lettering), ensure 'RK' or the full name uses the industrial blue accent (#1D4ED8) or a contrasting white/blue split to create visual hierarchy. The icon/logo mark to the left should be properly sized and vertically aligned with the wordmark. The result should feel like a confident, institutional brand lockup — not a wrapped overflow.",
+      "reqIds": [
+        "REQ-40"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with headline, subheadline, 3 CTAs (Download Brochure, Book Site Visit, View Master Plan), and aerial/drone-style background",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About RK Industrial Park section covering vision, ecosystem approach, zoning, compliance, and future-ready infrastructure",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Location Advantage section with interactive map, distances to NH/railway/airport/hubs, and connectivity highlights",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Infrastructure Highlights icon-grid (RCC roads, power, water, drainage, security, etc.) with technical spec download option",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Plot Options section with structured table for multiple plot sizes, customizable layouts, pricing on request, built-to-suit option",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Industries We Serve grid (Manufacturing, FMCG, Pharma, Cold Storage, Warehousing, Packaging, Engineering, Logistics)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Why Invest section with investment-driven copy (high-growth zone, infrastructure appreciation, compliance-ready, scalable expansion)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Compliance & Approvals section with certification display layout (govt approvals, zoning, environmental clearance, fire safety)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Gallery section with masonry layout for site photos, development progress, 3D renders, and infrastructure visuals",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Book Site Visit / Investor Enquiry Form with 8 CRM-ready fields (company, contact, phone, email, industry, plot size, power req, timeline)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Footer with address, Google Map embed, contact info, legal disclaimer, copyright, and brochure download button",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "SEO optimization with meta tags, schema markup (Organization, LocalBusiness, Industrial development) for industrial park keywords",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-14",
+      "summary": "Scalable architecture supporting Phase 2 expansion, future parks, investor login portal (future-ready), document vault, and blog section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-30",
+      "summary": "Implement a Motoko backend actor to store and retrieve investor enquiry form submissions. The actor must expose: a `submitEnquiry` update function that accepts all 8 form fields and stores them in a stable array, and an `getEnquiries` query function that returns all stored enquiries (for future admin use).",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-31",
+      "summary": "Hero section: make 'RK Industrial Park' branding clearly visible, update acreage stat to '25+', update plots stat to '100', and remove phase count/references completely",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-32",
+      "summary": "Increase visibility of 'RK Industrial Park' branding in the Hero section, and update industrial plots stat to '100+' (with plus sign)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-33",
+      "summary": "Enhance overall visual appeal — make the design more dynamic, vibrant, and visually engaging while maintaining institutional/corporate tone",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-34",
+      "summary": "Update Location Advantage section with real data: address 'Gopalpur, Sikandrabad', coordinates 28.4970110/77.6536180, distances (NH 5km, Railway 15km, Airport 30km, Major City 10km, ICD/Logistics Hub 1km), and highlight statement 'Strategically positioned within a high-growth industrial corridor offering seamless multi-modal connectivity.'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-35",
+      "summary": "Replace Phase 1/Phase 2 master plan section with a unified master development section: remove all phase references, add headline 'Structured Planning. Integrated Execution.', project summary strip (20+ acres, 100+ plots, 200–5000 sq.m, Industrial Use zoning, Ready status), infrastructure highlights in two-column bullet layout, master.pdf display, and two CTAs (Download Master Layout Plan, Book Site Visit).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-36",
+      "summary": "Update Plot Options section with 4 size brackets (100–500, 500–1000, 1000–2500, 2500+ sq.m) plus dedicated Built-to-Suit row, 5-column table (Plot Size, Category, Layout, Suitable For, Pricing), subtext, section note on custom demarcation, institutional tone, and premium Built-to-Suit visual treatment.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-37",
+      "summary": "Improve the title/header styling of the Plot Options section for better visual impact and hierarchy",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "RK Industrial Park",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

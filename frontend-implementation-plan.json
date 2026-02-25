@@ -1,0 +1,26 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Improve Navbar logo/wordmark visual design and layout",
+  "requirements": [
+    {
+      "id": "REQ-40",
+      "summary": "Redesign the 'RK Industrial Park' logo/wordmark area in the navbar for stronger visual impact and hierarchy, ensuring single-line display, bold typography with tracked uppercase, proper vertical alignment, and color contrast between 'RK' and 'INDUSTRIAL PARK'",
+      "acceptanceCriteria": [
+        "The 'RK Industrial Park' brand name in the navbar displays on a single line with no text wrapping",
+        "The wordmark uses bold, tracked uppercase typography consistent with the Inter design system",
+        "The logo icon and wordmark are vertically centred and visually balanced",
+        "A colour or weight contrast is applied between 'RK' and 'INDUSTRIAL PARK' (or the full name uses a unified strong treatment) to create brand hierarchy",
+        "The navbar brand lockup does not overflow or clip on desktop viewports",
+        "On mobile, the brand name remains legible and fits within the hamburger-menu collapsed navbar header"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Navbar.tsx",
+          "operation": "modify",
+          "description": "Refactor the brand lockup to prevent text wrapping by ensuring 'RK INDUSTRIAL PARK' displays on a single line. Increase font size and apply bold weight with letter-spacing (tracking) for uppercase typography using Inter font family. Apply color contrast by styling 'RK' with the industrial blue accent (#1D4ED8 or ind-blue-600) and 'INDUSTRIAL PARK' with white or a contrasting treatment. Ensure the logo icon (building/factory SVG) is properly sized and vertically aligned with the wordmark using flexbox alignment (items-center). Maintain existing sticky/fixed navbar scroll behavior and preserve all navigation links and 'Book Site Visit' CTA button. On mobile, ensure the brand lockup remains legible within the hamburger-menu collapsed state without overflow or clipping."
+        }
+      ]
+    }
+  ]
+}

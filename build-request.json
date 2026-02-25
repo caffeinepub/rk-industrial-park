@@ -1,0 +1,43 @@
+{
+  "kind": "build_request",
+  "title": "Improve Navbar logo/wordmark visual design and layout",
+  "projectName": "RK Industrial Park",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-40",
+      "text": "Redesign the 'RK Industrial Park' logo/wordmark area in frontend/src/components/Navbar.tsx for stronger visual impact and hierarchy. Currently the brand name wraps awkwardly across two lines ('RK INDUSTRIAL' / 'PARK'). Fix it to display on a single line without wrapping. Increase the font size and weight of the wordmark, apply a consistent typographic treatment (e.g., 'RK INDUSTRIAL PARK' in bold Inter with tracked uppercase lettering), ensure 'RK' or the full name uses the industrial blue accent (#1D4ED8) or a contrasting white/blue split to create visual hierarchy. The icon/logo mark to the left should be properly sized and vertically aligned with the wordmark. The result should feel like a confident, institutional brand lockup — not a wrapped overflow.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-recent-1"
+        ],
+        "quotes": [
+          "this title header can be made better"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The 'RK Industrial Park' brand name in the navbar displays on a single line with no text wrapping",
+        "The wordmark uses bold, tracked uppercase typography consistent with the Inter design system",
+        "The logo icon and wordmark are vertically centred and visually balanced",
+        "A colour or weight contrast is applied between 'RK' and 'INDUSTRIAL PARK' (or the full name uses a unified strong treatment) to create brand hierarchy",
+        "The navbar brand lockup does not overflow or clip on desktop viewports",
+        "On mobile, the brand name remains legible and fits within the hamburger-menu collapsed navbar header"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any files listed under frontend.immutablePaths",
+    "Preserve all existing navbar navigation links and 'Book Site Visit' CTA button behaviour",
+    "Maintain the sticky/fixed navbar scroll behaviour"
+  ],
+  "nonGoals": [
+    "Redesigning the full navbar layout or navigation link styling",
+    "Changing the mobile hamburger menu implementation",
+    "Modifying any section components other than Navbar.tsx"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-redesign-the-rk-industrial-park-logo-wordmark-area-in-frontend-src-components-navbar-tsx-for-stronger-visual-impact-and-hierarchy-currently-the-brand-name-wraps-awkwardly-across-two-lines-rk-industrial-park-fix-it-to-display-on-a-single-line-without-wrapping-increase-the-font-size-and-weight-of-the-wordmark-apply-a-consistent-typographic-treatment-e-g-rk-industrial-park-in-bold-inter-with-tracked-uppercase-lettering-ensure-rk-or-the-full-name-uses-the-industrial-blue-accent-1d4ed8-or-a-contrasting-white-blue-split-to-create-visual-hierarchy-the-icon-logo-mark-to-the-left-should-be-properly-sized-and-vertically-aligned-with-the-wordmark-the-result-should-feel-like-a-confident-institutional-brand-lockup-not-a-wrapped-overflow",
+      "featureTitle": "Redesign the 'RK Industrial Park' logo/wordmark area in frontend/src/components/Navbar.tsx for stronger visual impact and hierarchy. Currently the brand name wraps awkwardly across two lines ('RK INDUSTRIAL' / 'PARK'). Fix it to display on a single line without wrapping. Increase the font size and weight of the wordmark, apply a consistent typographic treatment (e.g., 'RK INDUSTRIAL PARK' in bold Inter with tracked uppercase lettering), ensure 'RK' or the full name uses the industrial blue accent (#1D4ED8) or a contrasting white/blue split to create visual hierarchy. The icon/logo mark to the left should be properly sized and vertically aligned with the wordmark. The result should feel like a confident, institutional brand lockup — not a wrapped overflow.",
+      "files": [
+        "frontend/src/components/Navbar.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "blob-storage@4.0.0"
+      ],
+      "testIds": [
+        "REQ-40"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
